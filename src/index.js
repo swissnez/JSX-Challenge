@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Heading4 from "./Heading4";
-import Bold from "./Heading4";
+import { Heading4, Bold } from "./Heading4";
+import List from "./list";
+//import Bold from "./Heading4";
 
 const imgSrc = "https://picsum.photos/200";
 const picsum =
@@ -20,6 +21,7 @@ ReactDOM.render(
     <h2 className="heading2">YES</h2>
     <img alt="puppy" src="{imgSrc}"></img>
     <img alt="puppy" src="{picsum}"></img>
+    <List />
     <Bold>WOW</Bold>
   </div>,
   document.getElementById("root")
